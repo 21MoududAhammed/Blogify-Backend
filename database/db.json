@@ -51,8 +51,8 @@
       "email": "salahuddin@learnwithsumit.com",
       "firstName": "Md",
       "lastName": "salahuddin",
-      "avatar": "avatar-1708882452726-336021919.jpeg",
-      "bio": "This is me Salauddin.",
+      "avatar": "avatar-1715533353840-390631211.JPG",
+      "bio": "This is me Akib Hasan",
       "password": "$2b$08$At/U5W1/ASt/F3zWCqOZnO75ftNVjwR.RVf0FEhEdQ0nHkll5tJ4m",
       "favourites": [
         {
@@ -67,11 +67,6 @@
         },
         {
           "id": "4321b782f360f58c8c89",
-          "title": "React useMemo Hook",
-          "tags": "android, java, kotlin, permission"
-        },
-        {
-          "id": "4321b782f360f58c8c89m",
           "title": "React useMemo Hook",
           "tags": "android, java, kotlin, permission"
         },
@@ -99,6 +94,11 @@
           "id": "4321b782f360f58c8c85m",
           "title": "Scope and Scope Chain in JavaScript",
           "tags": "JavaScript, Async, Scope"
+        },
+        {
+          "id": "4321b782f360f58c8c89m",
+          "title": "React useMemo Hook",
+          "tags": "android, java, kotlin, permission"
         }
       ]
     },
@@ -324,38 +324,6 @@
       "isFavourite": false
     },
     {
-      "id": "4321b782f360f58c8c85m",
-      "title": "Scope and Scope Chain in JavaScript",
-      "content": "In Simple, we can assume Scope as the area, where our program can access our declared variables. Simple is that. There is no Rocket Science behind this to get confused.\n\nBut there are some types of Scope, and we need to understand the differences and how it works. Cause, In larger projects it will help us to avoid collisions.\n\nSo there are 3 types of Scope in JavaScript:\n\n1. Global Scope\n\n2. Function Scope\n\n3. Block Scope.\n\nGlobal Scope:\n\nGlobal Scope is a global area of our JavaScript Codes. It is a default Scope. Any Variable or function that’s not inside any function or block, is inside the global scope by default. So everything we write in our code is into the Global Scope or Globally accessible.\n\nLet’s See an Example:\n\n\nSo, in the example, we declared the name variable and the showName() function in the Global Scope. We can get the value of the name and invoke showName() function from anywhere. That’s we are able to access the name variable from inside the showName() function.\n\nFunctional Scope:\n\nFunctional scope is also known as Local Scope. In functional Scope, variables are declared into a function which means between the curly brackets. And most importantly those variables are only accessible into the function. We can access those variables outside of the function.\n\nLet’s see an example:\n\n\nSo, We can see that we cannot access the variables which are declared in the functional scope outside of that function. And also we can see that functional scope creates its own environment and it doesn’t modify the global variables (name variable remains ‘Tamim’ )\n\nBlock Scope:\n\nSo, Block Scope is almost similar to Function Scope but just applicable for let and const. The area between if/else, loop or switch case is considered as block scope. The declared let/const variables can only be accessed into the scope. But It differs when it comes to the var. We can access the ‘var’ variables outside of the block scopes.\n\nLet’s see an Example:\n\n\nScope Chaining:\n\nScope Chaining is another important concept in JavaScript. Actually, It’s the behavior of JavaScript, how the program will act, or which variable will javaScript pick at a certain point. As we know till now about the three scopes, When JavaScript runs, the browser scope tries to find a variable value in the current scope. If it could not find the value, It tries to go outside of the current scope to find out the value. And it will continue this process until it finds out the variable value or it reaches the Global Scope. In the end, if It fails to find out the value of the variable it will throw a ‘ReferenceError’ or print undefined. And try to relate it by yourself.",
-      "thumbnail": "thumbnail-1708765297564-606798153.png",
-      "author": {
-        "id": "3d2dde4b6548275fb066m",
-        "firstName": "Saad",
-        "lastName": "Hasan",
-        "avatar": "avatar-1708764856675-623317122.jpg"
-      },
-      "tags": "JavaScript, Async, Scope",
-      "likes": [
-        {
-          "id": "346d7a36b3c41f3fbfa2"
-        }
-      ],
-      "comments": [
-        {
-          "id": "19becccf4ebf3e6cf385",
-          "content": "অনেক সুন্দর হয়েছে",
-          "author": {
-            "id": "346d7a36b3c41f3fbfa2",
-            "firstName": "Tapas",
-            "lastName": "Adhikary",
-            "avatar": "avatar-1708764766479-243448656.png"
-          }
-        }
-      ],
-      "createdAt": "2024-02-24T09:01:37.581Z",
-      "isFavourite": false
-    },
-    {
       "id": "4321b782f360f58c8c85",
       "title": "Scope and Scope Chain in JavaScript",
       "content": "In Simple, we can assume Scope as the area, where our program can access our declared variables. Simple is that. There is no Rocket Science behind this to get confused.\n\nBut there are some types of Scope, and we need to understand the differences and how it works. Cause, In larger projects it will help us to avoid collisions.\n\nSo there are 3 types of Scope in JavaScript:\n\n1. Global Scope\n\n2. Function Scope\n\n3. Block Scope.\n\nGlobal Scope:\n\nGlobal Scope is a global area of our JavaScript Codes. It is a default Scope. Any Variable or function that’s not inside any function or block, is inside the global scope by default. So everything we write in our code is into the Global Scope or Globally accessible.\n\nLet’s See an Example:\n\n\nSo, in the example, we declared the name variable and the showName() function in the Global Scope. We can get the value of the name and invoke showName() function from anywhere. That’s we are able to access the name variable from inside the showName() function.\n\nFunctional Scope:\n\nFunctional scope is also known as Local Scope. In functional Scope, variables are declared into a function which means between the curly brackets. And most importantly those variables are only accessible into the function. We can access those variables outside of the function.\n\nLet’s see an example:\n\n\nSo, We can see that we cannot access the variables which are declared in the functional scope outside of that function. And also we can see that functional scope creates its own environment and it doesn’t modify the global variables (name variable remains ‘Tamim’ )\n\nBlock Scope:\n\nSo, Block Scope is almost similar to Function Scope but just applicable for let and const. The area between if/else, loop or switch case is considered as block scope. The declared let/const variables can only be accessed into the scope. But It differs when it comes to the var. We can access the ‘var’ variables outside of the block scopes.\n\nLet’s see an Example:\n\n\nScope Chaining:\n\nScope Chaining is another important concept in JavaScript. Actually, It’s the behavior of JavaScript, how the program will act, or which variable will javaScript pick at a certain point. As we know till now about the three scopes, When JavaScript runs, the browser scope tries to find a variable value in the current scope. If it could not find the value, It tries to go outside of the current scope to find out the value. And it will continue this process until it finds out the variable value or it reaches the Global Scope. In the end, if It fails to find out the value of the variable it will throw a ‘ReferenceError’ or print undefined. And try to relate it by yourself.",
@@ -410,7 +378,74 @@
           "id": "65aff389f1822a5e9f43"
         }
       ],
+      "comments": [
+        {
+          "id": "d4438e858b44ab8c38b2",
+          "content": "xoss",
+          "author": {
+            "id": "65aff389f1822a5e9f43",
+            "firstName": "Md",
+            "lastName": "salahuddin",
+            "avatar": "avatar-1708882452726-336021919.jpeg"
+          }
+        }
+      ],
+      "createdAt": "2024-02-24T09:01:37.581Z",
+      "isFavourite": false
+    },
+    {
+      "id": "4321b782f360f58c8c89m",
+      "title": "React useMemo Hook",
+      "content": "useMemo is used to memoize the result of a function, meaning it caches the result and returns it when the inputs to that function haven't changed since the last render. It takes two arguments: the function to memoize and an array of dependencies. If any of the dependencies change between renders, the memoized function is re-executed; otherwise, the cached result is returned.",
+      "thumbnail": "thumbnail-4321b782f360f58c8c89.avif",
+      "author": {
+        "id": "3d2dde4b6548275fb066m",
+        "firstName": "Saad",
+        "lastName": "Hasan",
+        "avatar": "avatar-1708764856675-623317122.jpg"
+      },
+      "tags": "android, java, kotlin, permission",
+      "likes": [
+        {
+          "id": "346d7a36b3c41f3fbfa2"
+        },
+        {
+          "id": "65aff389f1822a5e9f43"
+        }
+      ],
       "comments": [],
+      "createdAt": "2024-02-24T09:01:37.581Z",
+      "isFavourite": false
+    },
+    {
+      "id": "4321b782f360f58c8c85m",
+      "title": "Scope and Scope Chain in JavaScript",
+      "content": "In Simple, we can assume Scope as the area, where our program can access our declared variables. Simple is that. There is no Rocket Science behind this to get confused.\n\nBut there are some types of Scope, and we need to understand the differences and how it works. Cause, In larger projects it will help us to avoid collisions.\n\nSo there are 3 types of Scope in JavaScript:\n\n1. Global Scope\n\n2. Function Scope\n\n3. Block Scope.\n\nGlobal Scope:\n\nGlobal Scope is a global area of our JavaScript Codes. It is a default Scope. Any Variable or function that’s not inside any function or block, is inside the global scope by default. So everything we write in our code is into the Global Scope or Globally accessible.\n\nLet’s See an Example:\n\n\nSo, in the example, we declared the name variable and the showName() function in the Global Scope. We can get the value of the name and invoke showName() function from anywhere. That’s we are able to access the name variable from inside the showName() function.\n\nFunctional Scope:\n\nFunctional scope is also known as Local Scope. In functional Scope, variables are declared into a function which means between the curly brackets. And most importantly those variables are only accessible into the function. We can access those variables outside of the function.\n\nLet’s see an example:\n\n\nSo, We can see that we cannot access the variables which are declared in the functional scope outside of that function. And also we can see that functional scope creates its own environment and it doesn’t modify the global variables (name variable remains ‘Tamim’ )\n\nBlock Scope:\n\nSo, Block Scope is almost similar to Function Scope but just applicable for let and const. The area between if/else, loop or switch case is considered as block scope. The declared let/const variables can only be accessed into the scope. But It differs when it comes to the var. We can access the ‘var’ variables outside of the block scopes.\n\nLet’s see an Example:\n\n\nScope Chaining:\n\nScope Chaining is another important concept in JavaScript. Actually, It’s the behavior of JavaScript, how the program will act, or which variable will javaScript pick at a certain point. As we know till now about the three scopes, When JavaScript runs, the browser scope tries to find a variable value in the current scope. If it could not find the value, It tries to go outside of the current scope to find out the value. And it will continue this process until it finds out the variable value or it reaches the Global Scope. In the end, if It fails to find out the value of the variable it will throw a ‘ReferenceError’ or print undefined. And try to relate it by yourself.",
+      "thumbnail": "thumbnail-1708765297564-606798153.png",
+      "author": {
+        "id": "3d2dde4b6548275fb066m",
+        "firstName": "Saad",
+        "lastName": "Hasan",
+        "avatar": "avatar-1708764856675-623317122.jpg"
+      },
+      "tags": "JavaScript, Async, Scope",
+      "likes": [
+        {
+          "id": "346d7a36b3c41f3fbfa2"
+        }
+      ],
+      "comments": [
+        {
+          "id": "19becccf4ebf3e6cf385",
+          "content": "অনেক সুন্দর হয়েছে",
+          "author": {
+            "id": "346d7a36b3c41f3fbfa2",
+            "firstName": "Tapas",
+            "lastName": "Adhikary",
+            "avatar": "avatar-1708764766479-243448656.png"
+          }
+        }
+      ],
       "createdAt": "2024-02-24T09:01:37.581Z",
       "isFavourite": false
     },
@@ -546,27 +581,6 @@
       "title": "JSON Parse | Android | Java",
       "content": "JSON stands for JavaScript Object Notation. It is structured, lightweight, human-readable and easy to parse. It’s the best alternative to XML when our android app needs to interchange data from the server. XML parsing is very complex as compare to JSON parsing. First, We have to understand how JSON works. JSON contains Objects, Arrays and key and value. An object is represented by Curly Braces: “{}”, Array is represented by Square Brackets: “[]” Everything between curly braces :{} is called JSON Object & everything between square brackets : [] is a JSON Object. A JSON object can contain different key-value pairs. The value of a key can be an Array. And Array may contain different Objects. And Multiple objects are separated by a comma. Seems difficult?\n\nNo, It’s not. See the Sample JSON file which will help you to understand it by your own and we will use this to fetch data. This JSON file is hosted on https://api.myjson.com/bins/xcuq8",
       "thumbnail": "thumbnail-4321b782f360f58c8c86.webp",
-      "author": {
-        "id": "3d2dde4b6548275fb066m",
-        "firstName": "Saad",
-        "lastName": "Hasan",
-        "avatar": "avatar-1708764856675-623317122.jpg"
-      },
-      "tags": "android, java, kotlin, permission",
-      "likes": [
-        {
-          "id": "346d7a36b3c41f3fbfa2"
-        }
-      ],
-      "comments": [],
-      "createdAt": "2024-02-24T09:01:37.581Z",
-      "isFavourite": false
-    },
-    {
-      "id": "4321b782f360f58c8c89m",
-      "title": "React useMemo Hook",
-      "content": "useMemo is used to memoize the result of a function, meaning it caches the result and returns it when the inputs to that function haven't changed since the last render. It takes two arguments: the function to memoize and an array of dependencies. If any of the dependencies change between renders, the memoized function is re-executed; otherwise, the cached result is returned.",
-      "thumbnail": "thumbnail-4321b782f360f58c8c89.avif",
       "author": {
         "id": "3d2dde4b6548275fb066m",
         "firstName": "Saad",
@@ -896,6 +910,22 @@
       "likes": [],
       "comments": [],
       "createdAt": "2024-05-10T10:04:36.618Z"
+    },
+    {
+      "id": "167443a887bf9f69be37",
+      "title": "News Feeder",
+      "content": "This is a content of ......",
+      "thumbnail": "thumbnail-1715532341899-649319538.jpg",
+      "author": {
+        "id": "65aff389f1822a5e9f43",
+        "firstName": "Md",
+        "lastName": "salahuddin",
+        "avatar": "avatar-1708882452726-336021919.jpeg"
+      },
+      "tags": "js, ts, php",
+      "likes": [],
+      "comments": [],
+      "createdAt": "2024-05-12T16:45:41.913Z"
     }
   ]
 }
